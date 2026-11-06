@@ -1,0 +1,70 @@
+{
+ "BK001": {
+  "tries": [],
+  "format": "html",
+  "html": {
+   "pages_saved": 24,
+   "pages_missing": 0,
+   "thin_pages": 0,
+   "resources_ok": 234,
+   "resources_missing": 0,
+   "expected_chapters": 13,
+   "truncated_at_max": false
+  },
+  "status": "ok",
+  "local_path": "books/files/Hyndman_ForecastingPrinciplesPractice3rdEd_3rdeditionPythonForecastingPrinciplesandPracticethePythonicWay_2021_html_en.zip",
+  "sha256": "d933787b3c572586d78f470d928434634d50b3f8fa9c477eab1ba7ea160f453f",
+  "reason": ""
+ },
+ "BK002": {
+  "tries": [
+   {
+    "url": "https://users.aalto.fi/~ssarkka/pub/bfs_book_2023_online.pdf",
+    "label": "full book (2nd ed, online version)",
+    "http": 200,
+    "error": null,
+    "ok_pdf": true,
+    "pages": 436,
+    "front_chars": 4951,
+    "sample_chars": 12063,
+    "title_match": 0.8,
+    "person_found": true,
+    "code_found": false,
+    "lang": "en"
+   }
+  ],
+  "format": "pdf",
+  "local_path": "books/files/Sarkka_BayesianFilteringSmoothing2ndEd_2ndedition_2023_en.pdf",
+  "sha256": "6b57f19aedb36a539a0a882b3c0c7ef49155ac25d82ee6950fc808b0a60f9c55",
+  "pages": 436,
+  "toc": [
+   "Preface",
+   "Symbols and Abbreviations",
+   "1 What Are Bayesian Filtering and Smoothing?",
+   "2 Bayesian Inference",
+   "3 Batch and Recursive Bayesian Estimation",
+   "4 Discretization of Continuous-Time Dynamic Models",
+   "5 Modeling with State Space Models",
+   "6 Bayesian Filtering Equations and Exact Solutions",
+   "7 Extended Kalman Filtering",
+   "8 General Gaussian Filtering",
+   "9 Gaussian Filtering by Enabling Approximations",
+   "10 Posterior Linearization Filtering",
+   "11 Particle Filtering",
+   "12 Bayesian Smoothing Equations and Exact Solutions",
+   "13 Extended Rauch–Tung–Striebel Smoothing",
+   "14 General Gaussian Smoothing",
+   "15 Particle Smoothing",
+   "16 Parameter Estimation",
+   "17 Epilogue",
+   "to 56ptAppendixAdditional Material",
+   "References",
+   "List of Examples",
+   "List of Theorems, Corollaries, and Algorithms",
+   "Index"
+  ],
+  "lang": "en",
+  "status": "ok",
+  "reason": ""
+ }
+}
