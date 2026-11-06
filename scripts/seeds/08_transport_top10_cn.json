@@ -1,0 +1,52 @@
+[
+ {
+  "id": "TS448",
+  "rank": 1,
+  "reason": "A Critical Audit of Spatiotemporal Forecasting Benchmark Datasets and Models。调好时间线性基线后，GNN 的增益显著缩小或被反超，解读排行榜前应先读。"
+ },
+ {
+  "id": "TS449",
+  "rank": 2,
+  "reason": "Time Series Foundation Models as Strong Baselines in Transportation Forecasting。Chronos-2 零样本在 10 个交通数据集上有竞争力，应作为必备基线。"
+ },
+ {
+  "id": "TS450",
+  "rank": 3,
+  "reason": "Do We Really Need Adaptive Global Spatial Attention for Traffic Forecasting?。受控消融显示空间注意力相对均匀混合没有一致优势。"
+ },
+ {
+  "id": "TS451",
+  "rank": 4,
+  "reason": "XXLTraffic。超长时间跨度且有分布漂移的交通基准，检验部署期稳健性。"
+ },
+ {
+  "id": "TS452",
+  "rank": 5,
+  "reason": "RideBench。带天气、节假日、大型活动外生标注的滴滴网约车基准。"
+ },
+ {
+  "id": "TS453",
+  "rank": 6,
+  "reason": "OpenCity。开源交通时空基础模型，可与 rank 2 的通用 TSFM 对照。"
+ },
+ {
+  "id": "TS455",
+  "rank": 8,
+  "reason": "Incident-Guided Spatiotemporal Traffic Forecasting。把事件影响拆成空间扩散与时间衰减，并附对齐数据集。"
+ },
+ {
+  "id": "TS456",
+  "rank": 9,
+  "reason": "Predicting Subway Passenger Flows under Incident Situation with Causality。用合成控制估计事件因果效应，再嵌入预测。"
+ },
+ {
+  "id": "TS457",
+  "rank": 10,
+  "reason": "Hierarchical Forecast Reconciliation for Urban Rail Transit Demand Prediction under Operational Disruptions。站点与 OD 层次一致性，扰动期效果有提升，并如实报告与统计方法相当。"
+ },
+ {
+  "id": "TS458",
+  "rank": 11,
+  "reason": "Bayesian Markov regime-switching VAR for bus travel time and occupancy（TR-B）。高质量统计方法，给出联合不确定性。"
+ }
+]

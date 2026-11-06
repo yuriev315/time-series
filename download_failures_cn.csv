@@ -1,0 +1,23 @@
+﻿编号,本地相对路径,原始地址,原因,许可证
+BK012,books/files/Castle_ModellingOurChangingWorld_1stedition_2019_en.pdf,https://link.springer.com/content/pdf/10.1007/978-3-030-21432-6.pdf,来源不允许自动下载，仅保留链接,no redistribution licence found
+BK040,books/files/Consoli_DataScienceEconomicsFinanceMethodologies_1stedition_2021_en.pdf,https://link.springer.com/content/pdf/10.1007/978-3-030-66891-4.pdf,来源不允许自动下载，仅保留链接,no redistribution licence found
+BK028,books/files/Evensen_DataAssimilationFundamentalsUnifiedFormu_1stedition_2022_en.pdf,https://link.springer.com/content/pdf/10.1007/978-3-030-96709-3.pdf,来源不允许自动下载，仅保留链接,no redistribution licence found
+BK050,books/files/Loucks_WaterResourceSystemsPlanningManagement_1steditionSpringer_2017_en.pdf,https://link.springer.com/content/pdf/10.1007/978-3-319-44234-1.pdf,来源不允许自动下载，仅保留链接,no redistribution licence found
+BK006,books/files/Murphy_ProbabilisticMachineLearningAdvancedTopi_1steditionPDF20251210_2023_en.pdf,https://github.com/probml/pml2-book/releases/latest/download/book2.pdf,超过 100 MiB，仅保留链接,CC BY-NC-ND
+BK058,books/files/Wuthrich_StatisticalFoundationsActuarialLearningI_1stedition_2023_en.pdf,https://link.springer.com/content/pdf/10.1007/978-3-031-12409-9.pdf,来源不允许自动下载，仅保留链接,no redistribution licence found
+TS178,pdfs/2024_Huan_PredictionTotalPhosphorusConcentration_en.pdf,https://www.mdpi.com/2073-4441/17/1/12/pdf?version=1735051414,来源不允许自动下载，仅保留链接,http://creativecommons.org/licenses/by/4.0/
+TS148,pdfs/2024_MartinSuazo_DeepLearningMethodsMulti_en.pdf,https://oa.upm.es/84623/1/10243619.pdf,来源不允许自动下载，仅保留链接,http://creativecommons.org/licenses/by-nc-nd/4.0/
+TS161,pdfs/2024_ZafraMejia_ARIMATFARIMAAnalysisMain_en.pdf,https://www.mdpi.com/2306-5338/11/1/10/pdf?version=1705486517,来源不允许自动下载，仅保留链接,http://creativecommons.org/licenses/by/4.0/
+TS233,pdfs/2025_Cruz_LongShortTermMemory_en.pdf,https://www.mdpi.com/2227-7080/13/8/321/pdf?version=1753868258,来源不允许自动下载，仅保留链接,http://creativecommons.org/licenses/by/4.0/
+TS106,pdfs/2025_Tao_DeepLearningAirPollutant_en.pdf,https://link.springer.com/content/pdf/10.1007/s11783-025-2092-6.pdf,来源不允许自动下载，仅保留链接,http://creativecommons.org/licenses/by/4.0
+TS422,pdfs/2026_Salis_PurePhysicsGuidedDeep_en.pdf,https://arxiv.org/pdf/2603.25779v2,超过 100 MiB，仅保留链接,http://creativecommons.org/licenses/by/4.0/
+TS128,pdfs/2026_Tavares_ExplainableDeepLearningMulti_en.pdf,https://link.springer.com/content/pdf/10.1007/s40808-026-02944-z.pdf,来源不允许自动下载，仅保留链接,no redistribution licence found
+TS164,pdfs/2026_Vukmirovic_MachineLearningEffluentForecasting_en.pdf,https://www.mdpi.com/2571-8797/8/5/151/pdf,来源不允许自动下载，仅保留链接,http://creativecommons.org/licenses/by/4.0/
+TS115,pdfs/2026_Wu_NovelWindAwareDynamic_en.pdf,https://www.mdpi.com/2220-9964/15/3/101/pdf?version=1772673785,来源不允许自动下载，仅保留链接,http://creativecommons.org/licenses/by/4.0/
+TS072,pdfs/2026_Yumimoto_MachineLearningPostProcessing_en.pdf,https://link.springer.com/content/pdf/10.1186/s40645-026-00830-x.pdf,来源不允许自动下载，仅保留链接,http://creativecommons.org/licenses/by/4.0
+UM063,university_materials/files/LinkopingUniversityD_PrognosticsStatistic_2025/LinkopingUniversityD_PrognosticsStatistic_2025_01_en.pdf,https://gitlab.liu.se/vehsys/phd_prognostics/-/raw/master/lecture_notes/lec01_introduction.pdf,来源不允许自动下载，仅保留链接,no redistribution licence found
+UM063,university_materials/files/LinkopingUniversityD_PrognosticsStatistic_2025/LinkopingUniversityD_PrognosticsStatistic_2025_02_en.pdf,https://gitlab.liu.se/vehsys/phd_prognostics/-/raw/master/lecture_notes/lec02_lifetime_modelling_KM.pdf,来源不允许自动下载，仅保留链接,no redistribution licence found
+UM063,university_materials/files/LinkopingUniversityD_PrognosticsStatistic_2025/LinkopingUniversityD_PrognosticsStatistic_2025_03_en.pdf,https://gitlab.liu.se/vehsys/phd_prognostics/-/raw/master/lecture_notes/lec03_cox.pdf,来源不允许自动下载，仅保留链接,no redistribution licence found
+UM063,university_materials/files/LinkopingUniversityD_PrognosticsStatistic_2025/LinkopingUniversityD_PrognosticsStatistic_2025_04_en.pdf,https://gitlab.liu.se/vehsys/phd_prognostics/-/raw/master/lecture_notes/lec04_rsf.pdf,来源不允许自动下载，仅保留链接,no redistribution licence found
+UM063,university_materials/files/LinkopingUniversityD_PrognosticsStatistic_2025/LinkopingUniversityD_PrognosticsStatistic_2025_05_en.pdf,https://gitlab.liu.se/vehsys/phd_prognostics/-/raw/master/lecture_notes/lec05_deep_nets.pdf,来源不允许自动下载，仅保留链接,no redistribution licence found
+UM063,university_materials/files/LinkopingUniversityD_PrognosticsStatistic_2025/LinkopingUniversityD_PrognosticsStatistic_2025_06_en.pdf,https://gitlab.liu.se/vehsys/phd_prognostics/-/raw/master/lecture_notes/lec06_optimal_maintenance_policies.pdf,来源不允许自动下载，仅保留链接,no redistribution licence found

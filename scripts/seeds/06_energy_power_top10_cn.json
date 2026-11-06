@@ -1,0 +1,52 @@
+[
+ {
+  "id": "TS578",
+  "rank": 1,
+  "reason": "The Hybrid Renewable Energy Forecasting and Trading Competition 2024。IJF 正式竞赛报告，真实前向评测，同时讨论预测技巧与交易价值。"
+ },
+ {
+  "id": "TS579",
+  "rank": 2,
+  "reason": "Energy Forecasting: A Review and Outlook（2020）。领域权威综述，给出可复现研究规范与开放数据源。"
+ },
+ {
+  "id": "TS580",
+  "rank": 3,
+  "reason": "Combining Weather Forecast Aggregation and State-Space Models…。GAM + 状态空间在线自适应，并聚合多家气象预报，统计路线的代表。"
+ },
+ {
+  "id": "TS581",
+  "rank": 4,
+  "reason": "Efficient mid-term forecasting of hourly electricity load using GAMs。中期小时负荷，气温、节假日、经济变量处理细致，可解释。"
+ },
+ {
+  "id": "TS583",
+  "rank": 6,
+  "reason": "The role of probabilistic load and renewable prediction in enhancing day-ahead electricity price forecasts。把负荷与风光预测的不确定性传递到电价预测。"
+ },
+ {
+  "id": "TS585",
+  "rank": 8,
+  "reason": "Day-Ahead Electricity Price Forecasting Using Merit-Order Curves Time Series。从供需曲线（市场机制）出发的结构化电价预测。"
+ },
+ {
+  "id": "TS586",
+  "rank": 9,
+  "reason": "Seamless short- to mid-term probabilistic wind power forecasting。拆分天气不确定性与功率转换不确定性，6-162 小时一个模型覆盖。"
+ },
+ {
+  "id": "TS588",
+  "rank": 11,
+  "reason": "Intraday spatiotemporal PV power prediction at national scale…。全国 6434 个站点的卫星光伏时空预测评估。"
+ },
+ {
+  "id": "TS591",
+  "rank": 14,
+  "reason": "FETS Benchmark。覆盖 54 个能源数据集的基础模型与专用模型对比。"
+ },
+ {
+  "id": "TS595",
+  "rank": 18,
+  "reason": "Foundation models for electricity price forecasting and battery arbitrage。同时给出统计与经济评价，结论审慎（基础模型不能普遍取代专用模型）。"
+ }
+]
