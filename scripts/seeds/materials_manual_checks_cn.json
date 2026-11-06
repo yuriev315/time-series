@@ -1,0 +1,39 @@
+{
+ "UM022": {
+  "status": "ok",
+  "note": "人工核验（2026-10-29）：PDF 首页为“TIME SERIES”及完整目录（模型、平稳过程、AR/MA、谱分析、估计与预测等），36 页，为完整课程讲义；PDF 内无作者署名，作者依据托管页面 statslab.cam.ac.uk/~rrw1（Richard Weber 个人主页）确认；讲义版本年份待核实。"
+ },
+ "UM054": {
+  "status": "ok",
+  "note": "人工核验（2026-10-29）：首页为“Time series analysis — Notes for the course in fall 2010, Hansruedi Künsch, Version August 2011”，含完整目录（5 章），37 页；自动核验失败原因是 PDF 文本把 Künsch 提取为“K¨ unsch”、种子题名为德文课程名。"
+ },
+ "UM055": {
+  "status": "failed",
+  "note": "与 UM054 为同一份讲义（Künsch, Version August 2011）的不同排版副本（42 页），按“同一资料不重复计数”规则不计入；文件已删除。",
+  "delete_file": true
+ },
+ "UM020": {
+  "status": "ok",
+  "note": "人工核验（2026-10-29）：课程主页列出的 21 个讲义网页（lecture-NN.html，R Markdown 完整讲义）与考试页全部保存（26 页）；第 11 讲为期中考试、第 16 讲课程页注明取消；唯一“缺失页”为官方页面中格式错误的外部链接，不属于讲义内容。"
+ },
+ "UM057": {
+  "status": "failed",
+  "delete_file": true,
+  "note": "重复：与 UM058（Dettling, Applied Time Series Analysis Script, SS 2016）为同一课程不同学期（SS 2012）的基本相同讲义，按规则不重复计数；保留最新的 SS 2016 版，本文件已删除。"
+ },
+ "UM008": {
+  "status": "failed",
+  "delete_file": true,
+  "note": "重复：与 UM058（Dettling, Applied Time Series Analysis Script, SS 2016）为同一课程不同学期（SS 2014）的基本相同讲义，按规则不重复计数；保留最新的 SS 2016 版，本文件已删除。"
+ },
+ "UM017": {
+  "status": "failed",
+  "delete_file": true,
+  "note": "重复：Särkkä《Bayesian estimation of time-varying systems》2012 课程讲义为其著作《Bayesian Filtering and Smoothing》的前身版本，书籍类已收录第 2 版（BK002），按“同一著作多个版本不重复计数”规则不计入；本文件已删除。"
+ },
+ "UM052": {
+  "status": "failed",
+  "delete_file": true,
+  "note": "重复：Särkkä《Bayesian estimation of time-varying systems》2010 课程讲义为其著作《Bayesian Filtering and Smoothing》的前身版本，书籍类已收录第 2 版（BK002），按“同一著作多个版本不重复计数”规则不计入；本文件已删除。"
+ }
+}

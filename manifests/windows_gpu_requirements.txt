@@ -1,0 +1,2 @@
+# Windows GPU: not applicable. The repository has no GPU code path.
+# Use windows_cpu_requirements.txt on GPU machines too.

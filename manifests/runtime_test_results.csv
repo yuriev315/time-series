@@ -1,0 +1,19 @@
+﻿test_id,test,platform,result,detail
+T01,Create isolated Python 3.10 venv,"Linux x86_64, CPython 3.10 (isolated venv)",PASSED,Python 3.10.22
+T02,Offline hash-locked install from windows_offline/minimal/wheels,"Linux x86_64, CPython 3.10 (isolated venv)",PASSED,pypdf and typing_extensions installed
+T03,Import pypdf,"Linux x86_64, CPython 3.10 (isolated venv)",PASSED,5.1.0
+T04,All repository scripts compile on Python 3.10,"Linux x86_64, CPython 3.10 (isolated venv)",PASSED,12 scripts
+T05,"Verify main branch PDFs against checksums_en.sha256 (stdlib only, cross-platform)","Linux x86_64, CPython 3.10 (isolated venv)",PASSED,ok 58 bad 0
+T06,Rebuild catalog offline (release-lite),"Linux x86_64, CPython 3.10 (isolated venv)",PASSED,"exit 0; 536 paper rows, 0 changed fields=True; checksums and failures byte-identical=True. NOTE committed catalog has 116 extra book/course rows that no committed script writes into this file"
+T06b,Rebuild book and course catalogs offline (release-lite),"Linux x86_64, CPython 3.10 (isolated venv)",PASSED,exit 0
+T07,Rebuild catalog offline (main),"Linux x86_64, CPython 3.10 (isolated venv)",PASSED,"script exit 0, but committed main outputs are stale: rebuilt 218 rows vs committed 58, 17 changed fields. Execution verified; byte reproducibility NOT verified"
+T08,Parse a real repository PDF with pypdf (the check used by the download scripts),"Linux x86_64, CPython 3.10 (isolated venv)",PASSED,2006_Hyndman_AnotherLookMeasuresForecast_en.pdf: 18 410 Another look at measures of forecast accuracy Rob J Hyndman
+T09,Rebuild catalog with a non-UTF-8 default encoding and UTF-8 mode off (analogous to Chinese Windows cp936),Linux simulation of a Windows condition,FAILED,UnicodeDecodeError: 'ascii' codec can't decode byte 0xe9 in position 76: ordinal not in range(128)
+T10,Same locale with -X utf8 (the documented Windows command form),Linux simulation of a Windows condition,PASSED,exit 0
+T11,Import scripts with fcntl unavailable (as on Windows),Linux simulation of a Windows condition,FAILED,"fail: ['ratelimit_en', 'fetch_metadata_en', 'search_candidates_en', 'download_papers_en', 'download_materials_en'] ok: ['build_catalog_en', 'meta_utils_en', 'verify_venues_en', 'build_materials_en', 'merge_seeds_en']"
+T12,ratelimit_en with compat fcntl shim loaded in place of fcntl (PYTHONPATH mechanism itself not testable here),Linux simulation of a Windows condition,PASSED,shim ok 0.2
+T30,Fetch arXiv metadata for one paper in a throwaway project,"Linux, CPython 3.10, live network",PASSED,xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition
+T31,Full download_papers / search_candidates / verify_venues pipeline,"Linux, CPython 3.10, live network",NOT_TESTED,Depends on external services; would write large PDF sets. Deliberately not run under the minimum-footprint rule.
+T20,Install and run on real Windows,"Windows 10/11 x64, CPython 3.10",NOT_TESTED,No Windows host here. Offline wheel resolution for x86_64-pc-windows-msvc passed (see T21); nothing has been executed on Windows.
+T21,Resolve requirements offline for Windows x64 / Python 3.10 using only local wheels,uv resolver targeting Windows (no execution),PASSED,pure-Python wheels; resolved
+T22,GPU functionality,any,NOT_TESTED,Repository has no GPU code path; not applicable.
